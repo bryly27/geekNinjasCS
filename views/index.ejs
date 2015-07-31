@@ -31,7 +31,7 @@
 		  width: 100%;
 		  height: 100%;
 		  font-family: 'Press Start 2P', cursive;
-
+		  color: #dddddd;
 		}
 		.content {
 			text-align: center;
@@ -41,13 +41,16 @@
 			display: inline-block;
 			margin: 10px;
 		}
+		#countdown {
+			margin-top: 50px;
+		}
 
-		.time h1 {
+		.time h2 {
 			border-bottom: 2px solid black;
-			font-size: 50px;
+			font-size: 30px;
 		}
 		.socialIcons a {
-			color: black;
+			color: #dddddd;
 			margin: 10px 25px;
 		}
 
@@ -80,22 +83,27 @@
 
 			<div class="content">
 
+				<div>
+					<h1>Geek Ninjas</h1>
+					<p>(Ninja Ready In)</p>
+				</div>
+
 				<div id="countdown">
 					<div class="row">
 						<div class="time">
-							<h1><span id="days"></span></h1>
+							<h2><span id="days"></span></h2>
 							<p>Days</p>
 						</div>
 						<div class="time">
-							<h1><span id="hours"></span></h1>
+							<h2><span id="hours"></span></h2>
 							<p>Hours</p>
 						</div>
 						<div class="time">
-							<h1><span id="minutes"></span></h1>
+							<h2><span id="minutes"></span></h2>
 							<p>Minutes</p>
 						</div>
 						<div class="time">
-							<h1><span id="seconds"></span></h1>
+							<h2><span id="seconds"></span></h2>
 							<p>Seconds</p>
 						</div>
 					</div>
