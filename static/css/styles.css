@@ -35,3 +35,12 @@
 	}
 
 }
+
+@media (max-width: 500px) {
+	.time {
+		width: 60px;
+	}
+	.time p {
+		font-size: 8px;
+	}
+}
