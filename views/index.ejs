@@ -21,24 +21,6 @@
 	<link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 
-<script type="text/javascript">
-	$(document).ready(function(){
-
-		$(".content").hide();
-		$(".content").fadeIn(3000);
-
-		$("#countdown").countdown("2015/08/21", function(results){
-			$("#days").text(results.strftime("%D"));
-			$("#hours").text(results.strftime("%H"));
-			$("#minutes").text(results.strftime("%M"));
-			$("#seconds").text(results.strftime("%S"));
-
-		})
-
-	});
-
-
-</script>
 <body>
 	<div class="body">
 		<div class="container">
@@ -89,6 +71,8 @@
 
 	<script type="text/javascript" src="./js/bower_components/jquery.countdown/dist/jquery.countdown.js"></script>
 	<script type="text/javascript" src="./js/bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
+	<script type="text/javascript" src="./js/temp1.js"></script>
+
 
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
