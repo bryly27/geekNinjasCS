@@ -19,14 +19,20 @@
 #countdown {
 	margin-top: 50px;
 }
+.banner h1 {
+	font-size: 50px;
+}
 
 .time h2 {
 	border-bottom: 2px solid black;
 	font-size: 30px;
 }
+.socialIcons {
+	margin-top: 150px;
+}
 .socialIcons a {
 	color: #dddddd;
-	margin: 10px 25px;
+	margin: 10px 20px;
 }
 
 @media (max-width: 991px) {
@@ -36,7 +42,7 @@
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
 	.time {
 		width: 60px;
 	}
